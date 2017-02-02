@@ -1,0 +1,25 @@
+body{
+  background-image: url("../img/fondo.jpg");
+  background-attachment: fixed;
+  background-repeat: round;;
+}
+#header, #section{
+  background: rgba(48, 113, 128, 0.73);
+}
+#panel{
+  background: rgba(141, 159, 193, 0.91);
+  margin: 0 auto;
+  border-radius: 5px 5px 5px 5px;
+}
+#contenido{
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 5px 5px 5px 5px;
+}
+#section{
+  padding-bottom: 1%;
+  border-radius: 0 0 5px 5px;
+}
+section{
+  padding-bottom: 1%;
+}
