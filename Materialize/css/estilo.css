@@ -10,9 +10,12 @@ body{
 #cabecera{
   padding-top: 1%;
 }
-#logo{
-  float: right;
-  margin-bottom: 5%;
+.logo{
+  display: block;
+  text-align: center;
+}
+#menu{
+  text-align: center;
 }
 #titulo{
   padding-top: 5%;
@@ -20,19 +23,8 @@ body{
   font-style: italic;
   text-shadow: 2px 2px 2px #02010a;
 }
-img{
-  box-shadow: 1px 6px 44px #02010a;
-  -webkit-box-shadow: 1px 6px 44px #02010a;
-  -moz-box-shadow: 1px 6px 44px #02010a;
-}
-#img-sin-borde{
-  box-shadow: none !important;
-}
 #articulo{
   padding-top: 1%;
-  box-shadow: 1px 6px 44px #02010a;
-  -webkit-box-shadow: 1px 6px 44px #02010a;
-  -moz-box-shadow: 1px 6px 44px #02010a;
 }
 #articulo img{
   margin-top: 2%;
@@ -43,9 +35,6 @@ img{
 #perfil{
   text-align: center;
   padding-top: 1%;
-  box-shadow: 1px 6px 44px #02010a;
-  -webkit-box-shadow: 1px 6px 44px #02010a;
-  -moz-box-shadow: 1px 6px 44px #02010a;
 }
 #perfil img{
   width: 50%;
@@ -54,10 +43,15 @@ img{
 }
 #form-comentario{
   padding-bottom: 2%;
-  box-shadow: 1px 6px 44px #02010a;
-  -webkit-box-shadow: 1px 6px 44px #02010a;
-  -moz-box-shadow: 1px 6px 44px #02010a;
 }
 h5{
   text-shadow: 2px 2px 2px #02010a;
+}
+@media (max-width:900px){
+  #titulo{
+    text-align: center;
+  }
+  #perfil1 img{
+    width: 80%;
+  }
 }
